@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+article h1 {
+  color: blue;
+  font-size: 40px;
+  font-family: " Arial, Helvetica", sans-serif;
+}
+article h1 span {
+  color: red;
+}
+article p {
+  color: blue;
+  font-family: "Tahoma", sans-serif;
+  font-size: 30px;
+}
+article p span {
+  color: black;
+}
+article a {
+  display: inline-block;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+
+.Articulo-2 {
+  background-color: rgba(0, 0, 0, 0.097);
+}
+@media screen and (max-width: 768px) {
+  .Articulo-2 {
+    background-color: magenta;
+  }
+}
+
+.Articulo-2__Titulo-Prueba {
+  color: lightseagreen !important;
+  font-size: 35px;
+  font-family: " Arial, Helvetica", sans-serif;
+}
+.Articulo-2__Titulo-Prueba span {
+  color: lightseagreen;
+}
+@media screen and (max-width: 768px) {
+  .Articulo-2__Titulo-Prueba span {
+    color: black;
+  }
+}
+
+.Articulo-2__Parrafo-Prueba {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Tahoma", sans-serif;
+}
+.Articulo-2__Parrafo-Prueba.Parrafo-Prueba--Ancho {
+  width: 500px;
+}
+
+.Articulo-2__Boton-Prueba {
+  display: inline-block;
+  background-color: limegreen;
+  padding: 10px;
+  color: black;
+  font-size: 25px;
+  margin-left: 800px;
+}
+.Articulo-2__Boton-Prueba:hover {
+  background-color: lightskyblue;
+}
+
+.Sec1 {
+  display: flex;
+  align-items: center;
+}
+
+.Blue {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+
+.Yellow {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+}
+
+.Red {
+  background-color: blue;
+  width: 600px;
+  height: 600px;
+}
+
+.Green {
+  background-color: yellow;
+  width: 600px;
+  height: 600px;
+}

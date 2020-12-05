@@ -1,0 +1,98 @@
+article{
+    h1 {
+        color: $ColorPrincipal;
+        font-size: $TamañoTitulos;
+        font-family: $FuenteTitulos;
+        span {
+            color: red;
+        }
+    
+    }
+    p {
+        color: $ColorPrincipal;
+        font-family: $FuenteParrafos;
+        font-size: $TamañoParrafos;
+        
+        span {
+            color: black;
+        }
+    }
+    
+    a {
+        display: inline-block;
+        background-color: $ColorPrincipal;
+        padding: 10px;
+        color: $Blanco;
+    
+    }
+}
+
+.Articulo-2{
+    background-color: rgba(0, 0, 0, 0.097);
+    @media screen and (max-width: 768px) {
+        background-color: magenta;
+    }
+}
+
+.Articulo-2__Titulo-Prueba{
+    color: lightseagreen!important;
+    font-size: 35px;
+    font-family: $FuenteTitulos;
+    span {
+        color: lightseagreen;
+        @media screen and (max-width: 768px) {
+            color: black;
+        }
+    }
+}
+
+.Articulo-2__Parrafo-Prueba{
+     color: blueviolet;
+     font-size: 20px;
+     font-family: $FuenteParrafos;
+        &.Parrafo-Prueba--Ancho {
+            width: 500px;
+        }
+}
+
+.Articulo-2__Boton-Prueba{
+     display: inline-block;
+     background-color: limegreen;
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     font-size: 25px;
+     margin-left: 800px;
+    &:hover {
+        background-color: lightskyblue;
+    }
+}
+
+
+.Sec1 {
+display: flex; align-items: center; 
+}
+
+.Blue {
+ background-color: $color1;
+  width: $Ancho/2;
+  height: $Largo/2;
+}
+
+.Yellow {
+background-color: $color2;
+width: $Ancho/2;
+height: $Largo/2;
+}
+
+
+.Red {
+    background-color: $color1;
+     width: $Ancho;
+     height: $Largo;
+}
+   
+.Green {
+    background-color: $color2;
+    width: $Ancho;
+    height: $Largo;
+}
